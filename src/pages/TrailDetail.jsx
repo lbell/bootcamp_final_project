@@ -21,7 +21,6 @@ export default function TrailDetail({ trails }) {
 
   return (
     <div>
-      {/* <h1 sx={{textAlign: "center"}}>{trailInfo.name}</h1> */}
       <Title>
         <h1>{trailInfo.name}</h1>
       </Title>
