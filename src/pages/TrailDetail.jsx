@@ -10,10 +10,6 @@ export default function TrailDetail({ trails }) {
   const { trailID } = useParams();
   const [trailInfo, setTrailInfo] = useState({});
 
-  const trail = trails.features.find((feature) => {
-    return feature.properties.ECTA_index === Number(trailID);
-  });
-
   useEffect(() => {
     async function fetchData() {
       let result = await getTrailInfo(trailID);
