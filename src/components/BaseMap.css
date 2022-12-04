@@ -1,0 +1,8 @@
+.leaflet-container {
+  width: 100vw;
+  height: 93vh;
+}
+
+.snow {
+  mix-blend-mode: multiply;
+}
